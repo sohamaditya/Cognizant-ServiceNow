@@ -1,0 +1,63 @@
+### Notes on the Video: "What is ServiceNow?"
+
+**Introduction**
+- Host: Jeff from ServiceNowSimple.
+- Purpose: To explain what ServiceNow is in a simple and easy-to-understand manner.
+
+**Overview of ServiceNow**
+- **Who is ServiceNow?**
+  - Employees: Over 17,000 globally.
+  - Recognized as a great place to work (Glassdoor, Fortune Magazine).
+  - Notable customers: AT&T, Coca-Cola, Deloitte, Delta, Microsoft, and more.
+  - Leadership: Bill McDermott (CEO) and Fred Luddy (Founder and Chairman of the Board).
+
+- **When was ServiceNow founded?**
+  - Founded in 2003 as GlideSoft.
+  - Renamed to ServiceNow in 2006.
+  - Became publicly traded in 2012 under the ticker "NOW".
+  - Named the most innovative company by Forbes in 2018.
+  - Bill McDermott became CEO in 2019.
+
+- **Why was ServiceNow created?**
+  - Fred Luddy's motivation: Frustration with how IT departments often made businesspeople feel silly and were inefficient.
+  - Aim: To create a platform that simplifies IT service delivery and empowers businesspeople to solve their own problems.
+
+- **How does ServiceNow work?**
+  - The NOW Platform: A cloud-based Application Platform as a Service (APaaS).
+  - Infrastructure: Includes compute resources, security, redundancy, and backups.
+  - Data Model: Single, enterprise-wide data model and database.
+  - Applications and Workflows: Includes IT Workflows, Employee Workflows, Customer Workflows, and Creator Workflows, all customizable to specific business needs.
+
+- **Where is ServiceNow located?**
+  - Headquarters: Santa Clara, California.
+  - Global Presence: Offices and data centers across North America, Latin America, Europe, the Middle-East, Africa, Asia Pacific, and Japan.
+
+**Conclusion**
+- Single-Sentence Definition: ServiceNow is a software company that provides a cloud-based platform to help large enterprises manage IT services more efficiently, allowing businesspeople to solve problems themselves.
+- Call to Action: Viewers are encouraged to subscribe, give feedback, and suggest their own definitions of "What is ServiceNow?"
+
+
+"ServiceNow Platform Overview" ### Key Takeaways from the Video:
+
+1. **Introduction to ServiceNow and Fred Luddy:**
+   - Fred Luddy, the founder of ServiceNow, established the company in 2004 with the goal of automating the flow of work within businesses.
+   - His motivation came from a frustration with the traditional IT approach where business needs were often misunderstood or miscommunicated.
+
+2. **ServiceNow Platform Overview:**
+   - ServiceNow is described as an "Application Platform as a Service" (aPaaS), which is a combination of Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
+   - The platform provides the necessary infrastructure, software, and applications needed for businesses to develop solutions, manage workflows, and perform various IT and business functions.
+
+3. **Architecture and Delivery Model:**
+   - Unlike typical cloud models that may use a shared database, ServiceNow utilizes a "multi-instance architecture," ensuring that each customer has a unique instance of the platform, which enhances control and customization.
+
+4. **Applications and Workflows:**
+   - ServiceNow organizes its application offerings into four main categories called workflows: IT Workflows, Employee Workflows, Customer Workflows, and Creator Workflows.
+   - Each of these categories is further divided into subcategories, which are tailored to specific business needs and processes.
+
+5. **User Interface and Role-Based Access:**
+   - The platform includes various user interface types and supports role-based access, allowing different users within an organization to have customized access and views based on their roles and responsibilities.
+
+6. **Getting Started with ServiceNow:**
+   - At the end of the video, viewers are guided on how to set up their own ServiceNow instance to practice and explore the functionalities discussed.
+
+Overall, the video provides a comprehensive overview of the ServiceNow platform, highlighting its unique features and benefits, especially for those looking to achieve certification in ServiceNow.

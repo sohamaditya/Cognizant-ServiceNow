@@ -61,3 +61,382 @@
    - At the end of the video, viewers are guided on how to set up their own ServiceNow instance to practice and explore the functionalities discussed.
 
 Overall, the video provides a comprehensive overview of the ServiceNow platform, highlighting its unique features and benefits, especially for those looking to achieve certification in ServiceNow.
+
+
+
+
+
+ServiceNow User Interface Overview (J5) - Notes
+
+Video Link: ServiceNow User Interface Overview
+
+Overview:
+
+Platform: Web-based interface for accessing the Now Platform.
+Lesson Focus: User Interface (UI) layout, elements, and commonly used tools.
+Key Topics Covered:
+Banner Frame
+Application Navigator
+Content Frame
+Main Screen Elements:
+
+Banner Frame:
+
+Runs across the top.
+Contains:
+Logo: Click to return to the home page.
+User Menu: Access profile, impersonate user, elevate roles, log out.
+Tools Section:
+Global Search: Search the entire instance.
+Connect Chat: In-app chat tool.
+Help: Contextual help and user guide.
+System Settings Gear: Customize UI settings.
+Application Navigator:
+
+Located on the left sidebar.
+Main navigation tool.
+Contains:
+Filter: Type characters to search for applications/modules.
+Tabs:
+All Applications: Shows all applications.
+Favorites: Access frequently used applications/modules or records.
+History: View recent items.
+Content Frame:
+
+Occupies the remainder of the screen.
+Displays the main workspace or content.
+Detailed UI Elements:
+
+User Menu Options:
+
+Profile: Update personal settings.
+Impersonate User: View the instance as another user (admin/impersonator role required).
+Elevate Roles: Temporarily gain additional admin rights for high-impact actions.
+Log Out: Exit the instance.
+Tools Section:
+
+Global Search: Full instance search.
+Connect Chat: Internal chat.
+Help: Contextual help based on current view.
+System Settings:
+
+General Settings: Compact UI, keyboard shortcuts, home page preferences, date/time settings.
+Theme Settings: Customize the UI appearance.
+Accessibility Settings: Adjust accessibility options.
+List Settings: Configure how lists display (e.g., text wrapping).
+Form Settings: Customize form views, related lists, and loading behaviors.
+Notification Settings: Manage notifications and channels.
+Developer Settings: Developer tools like application scope, update sets, and logging.
+Navigation Tabs:
+
+All Applications: Comprehensive list of applications.
+Favorites: Frequently accessed applications/records.
+History: Recently accessed items.
+Additional Notes:
+
+The lesson includes a demonstration of UI elements.
+Certification preparation requires familiarity with terms and UI sections.
+
+
+
+User Menu:
+
+Profile: Update personal details.
+Impersonate User: View the application as another user for troubleshooting.
+Elevate Roles: Add extra security steps for high-impact functions.
+Log Out: Exit the system.
+Help Tool:
+
+Provides contextual help based on your current location within the application.
+Access to help articles and user guides.
+Collapse or expand the sidebar for easier navigation.
+Connect Chat:
+
+Real-time chat with other users of the instance.
+View chat history and start new conversations.
+Search Tool:
+
+Global search across the instance.
+Results are categorized and provide snippets of the matching records.
+Direct access to records from search results.
+System Settings:
+
+Theme: Customize UI colors for different environments (e.g., development vs. production).
+Accessibility Options: Adjust settings for accessibility needs.
+Developer Tools: Configure settings for development tools.
+Application Navigator:
+
+Tabs: Includes All Applications, Favorites, and History.
+Filter: Search and filter applications and modules.
+Favorites: Add frequently used items for quick access.
+History: Track and revisit recent pages and modules.
+Additional Features:
+
+Favorites: Add, organize, and customize favorites.
+History: Quickly return to recently visited items.
+This overview should help you navigate and utilize the ServiceNow platform more effectively. If you have any specific questions or need further details on any part, feel free to ask!
+
+
+ServiceNow Branding Overview (Lesson 4)
+
+Introduction:
+
+Focus: Customizing the out-of-the-box user interface to align with corporate branding.
+Key elements: Adjusting colors, fonts, logos, and overall appearance to reflect your company’s identity.
+Lesson Content:
+
+Overview of Branding:
+
+Branding in ServiceNow involves modifying the UI to make it feel like it belongs to your company.
+Benefits include creating a shared identity, making users feel more comfortable, and potentially speeding up adoption.
+Guided Setup Wizards:
+
+Purpose: Assist with setting up applications and modules in ServiceNow.
+Types:
+IT Service Management (ITSM) Guided Setup: Includes branding and overall look and feel settings.
+IT Operations Management (ITOM) Guided Setup: Configures mid servers, discovery, event management, etc.
+Key Focus: Company Guided Setup for branding-related changes.
+Personalization Options:
+
+Service Portal: Widget-based interface for building custom user interfaces.
+UI Builder: WYSIWYG editor for creating functional screens with customizable elements.
+Detailed Steps for Branding:
+
+Accessing Guided Setup:
+
+Navigate to the Guided Setup application via the filter navigator.
+Two main modules: ITSM and ITOM guided setups.
+Company Guided Setup:
+
+System Configuration: Set default settings, upload logos, customize banner frames, and adjust colors and text.
+Welcome Page Configuration: Modify how the welcome page appears and behaves.
+Hands-On Demonstration:
+
+Example changes include updating the page header caption and browser tab title.
+Conclusion:
+
+Branding is essential for personalizing the ServiceNow experience to match company standards and improve user comfort.
+Admins use guided setups to implement these changes across the platform.
+
+
+Key points from the video on ServiceNow Lists and Filters:
+
+ServiceNow Lists:
+
+Lists are used to display records from database tables.
+You can access lists via the Application Navigator or using the dot list command.
+List Interface:
+
+Displays a title bar, header with column names, and data rows.
+Allows sorting, searching, filtering, grouping, and paging.
+Key Features:
+
+Title Bar: Contains controls for list settings, including saved views, filters, and grouping options.
+List Header: Includes column labels and context menus for individual columns.
+Column Labels: Represent field labels from the database. Clicking on them sorts the list by that column.
+Commands:
+
+table_name.list: Opens the list view for a specific table.
+sys_db_object.list: Opens a list of all tables.
+Filters:
+
+Saved Filters: Allow you to save and apply specific filter criteria.
+Condition Builder: Provides advanced filtering options including multiple columns and operators.
+Column Search Row: Allows searching within specific columns.
+Grouping and Paging:
+
+Group By: Allows grouping records by a column.
+Paging: Controls the number of records displayed per page and allows navigation through pages.
+Personalization:
+
+You can personalize the list view by adding, removing, and reordering columns.
+Customizations are user-specific and do not affect other users.
+Search:
+
+Search Tool: Enables searching within a selected column.
+Wildcards: % for ends with, * for contains, = for exact match.
+Activity Stream:
+
+Available on tables that track activity. Provides a timeline of changes and interactions.
+Additional Tools:
+
+Visual Task Board: Available for task-based lists to create boards.
+Chart Options: Provides options to view data in bar or pie chart formats.
+
+Forms in ServiceNow
+
+A form is a way to view and interact with a single record in ServiceNow
+Forms are used to display and collect data for a record
+Every form has a header bar, main section, and additional sections
+Header Bar
+
+Provides standard tools for working with the record
+Includes buttons for submitting, updating, and saving changes
+Main Section
+
+Displays fields that make up the record
+Fields are defined in the database and determine how they appear and interact on the form
+Examples of field types: string, boolean, choice, reference
+Additional Sections
+
+Used to group and organize fields and related lists
+Can be displayed in a tabbed or expandable format
+Logged in user can decide which format to use
+Form Views
+
+Different views of the same record can be created and saved
+Useful for different types of users who need to see different fields or formats
+Form views can be created and modified by users with certain admin roles
+Form Templates
+
+Used to automatically populate certain fields when creating a new record
+Can be created and modified by users
+Templates can be applied to a specific table or record type
+Tools for Creating and Editing Form Views
+
+Form Design Tool: a drag-and-drop interface for creating and managing views
+Formal Layout Tool: a simpler, more traditional method for adding and removing fields
+Key Takeaways
+
+Forms are used to view and interact with records in ServiceNow
+Forms have a header bar, main section, and additional sections
+Form views can be created and modified to suit different user needs
+Form templates can be used to automatically populate fields
+Two tools are available for creating and editing form views: Form Design Tool and Formal Layout Tool
+
+
+Introduction to Importing Data in ServiceNow
+
+Series Overview
+
+The series will cover the standard data import process in ServiceNow
+Topics to be covered:
+Data sources
+Import sets
+Transform Maps
+Field Maps
+Data import scheduling
+Terminology
+
+Source data entity: stores the data to be imported
+Target data entity: where the data will be loaded
+Staging table (also referred to as Import Set table in ServiceNow): an intermediary table between the source and target entities
+Key Points
+
+ServiceNow introduces an intermediary table (staging table) between the source and target entities
+The staging table is automatically created by ServiceNow when the import process is initiated
+The import process involves three data entities: source, staging table, and target
+
+
+A data source is a record in a table in ServiceNow that stores the parameters needed to understand the type of source data entity.
+The data source table is named CIS_data_source.
+To create a data source, navigate to System Import Sets > Administration > Data Sources.
+Fill out the required fields, including:
+Name: a descriptive name for the data source.
+Type: the type of data source (e.g. file, JDBC, LDAP, OIDC, custom script).
+Label: a label for the staging table that will be created.
+Name: the actual name of the staging table.
+Depending on the type of data source, additional fields may be required, such as:
+JDBC: database type, server name, port, username, password, and SQL statement.
+File: file format (e.g. CSV, Excel, JSON, XML), file retrieval method (e.g. attachment, FTP).
+Once the data source is created, attach the file or configure the connection to the data source.
+ServiceNow will use the header row of the data source to create fields in the staging table.
+
+
+Importing Data into ServiceNow
+
+Created a data source record in the previous note
+Data source record is used by ServiceNow to understand the source of the data
+Parameters for the creation of the staging table are set in the data source record
+Staging Table (Import Set Table)
+
+ServiceNow automatically creates the staging table as part of the import process
+The staging table is created based on the parameters set in the data source record
+The table name is prefixed with "u_" and the label is set to "Test Import"
+Loading Data into the Staging Table
+
+Ran an import to load data from the Excel file into the staging table
+ServiceNow checks if the staging table exists, and if not, creates it based on the parameters set in the data source record
+The data is then loaded into the staging table
+Viewing the Staging Table
+
+Used the dot list command to view the contents of the staging table
+The staging table has five rows, which are the same as the rows in the Excel file
+Import Set Table
+
+ServiceNow provides an out-of-the-box table called sys_import_set to manage the data loaded into the staging table
+Each record in the import set table represents a group or set of records inserted into the staging table
+The import set table is used to track the import runs and the records loaded into the staging table
+Managing Import Runs
+
+ServiceNow allows you to manage the records loaded into the staging table based on the import run
+Each import run is assigned a unique number, and the records loaded into the staging table are linked to the import run
+This allows you to track which records were loaded in each import run
+
+The video is a tutorial on ServiceNow Incident Management and Task Administration.
+The speaker, Jeff Teist, explains that the task table is one of the core components of ServiceNow's platform and that management is one of its primary functions.
+He introduces the concept of hierarchical database design, where tables are created as extensions or children of the task table, inheriting its common attributes and adding their own.
+He mentions that there are three commonly used types of tasks in ServiceNow: change request, incident, and problem.
+He explains how tasks are assigned to users or groups by populating the "assigned to" and "assignment group" fields, and how the user and group tables need to be populated first.
+He introduces the concept of assignment rules, which are records in the database that tell the platform how to automatically populate the "assign to" and "assignment group" fields when tasks are created.
+He demonstrates how to create a new assignment rule, using the example of assigning all hardware incidents to the hardware support group and the user Abraham Lincoln.
+He also mentions the existence of assignment lookup rules, which are less powerful than assignment rules and can only be created against incident tasks.
+He explains how users can access tasks assigned to themselves or a group they belong to using the service desk application.
+He introduces the concept of user presence and real-time editing, which allow multiple stakeholders to view and update records simultaneously.
+He demonstrates how the active viewer icon and real-time editing pulse icon work, using the example of two users viewing and editing the same incident record.
+He mentions the importance of activity entries and worknotes in facilitating teamwork and communication.
+He briefly introduces visual task boards, which provide a more graphical drag and drop Paradigm for viewing tasks, and demonstrates how to create and use them.
+
+Jeff Tease is a software developer and technical architect with 30+ years of experience. He has been working exclusively with ServiceNow and created the YouTube channel "ServiceNow Simple" to teach people about ServiceNow in a simple and fun way.
+In this tutorial, Jeff will discuss the data model that supports ServiceNow's reporting functionality.
+The main table that supports reporting is the sys_report table, which stores a record for each report in the instance.
+Other tables that support reporting capabilities include:
+sys_report_source: Allows storing and reusing saved queries for retrieving data from source tables and populating a report.
+sys_email_report_schedule: Provides the ability to set up a report to execute automatically on a recurring basis and have it emailed to interested users.
+sys_report_user_group: Allows sharing reports directly with individual users or groups of users via the UI.
+The sys_report table has 156 fields that describe how the report should behave. Some of the most commonly used fields are:
+sys_id: The system-generated unique ID of any record.
+title: The title of the report.
+source_type: Specifies where the platform should go for the data (table or data source).
+source: The counterpart to the source_type field.
+table: The primary database table from which the report data is pulled.
+field_name: The field within the table that the data should be grouped on for presentation purposes.
+filter: Tells the platform about any filtering conditions to apply to narrow down the data being included in the report.
+type: Specifies which type of report or visualization the platform should use when presenting the report data.
+ServiceNow provides over 23 different types of reports or visualizations out of the box, including lists, Box, Bar, pivots, Trends, line, control, spline, area, histogram, heat map, map, maps, calendars, bubble, funnel, pyramid, Donuts, pie, speedometer, and single score.
+To create a new report, you can use the Reports application's "Create New" module, ServiceNow Studio, or create a new report from an existing list view.
+When creating a new report, you will need to populate fields such as the report name, source type, table, and group by field.
+
+
+Introduction:
+
+The show is about low code no code development, brought to you by ServiceNow.
+The host introduces the cast of characters: Savvy Business Person, IT Superstar, and The Wall (the barrier between business and IT).
+The Story:
+
+The Savvy Business Person has an idea for digital transformation, but needs IT support.
+The IT Superstar receives the requirements and creates a system design, but the Savvy Business Person is not satisfied with the result.
+The cycle of feedback and iteration begins, with the IT Superstar making changes and the Savvy Business Person providing feedback.
+The process is slow and frustrating, with the Wall (the barrier between business and IT) causing delays and miscommunication.
+The Problem:
+
+The traditional software development process is slow, costly, and frustrating.
+The IT Superstar is skilled, but the process is inefficient.
+The Solution:
+
+Low code no code development is introduced as a solution to break down the barriers between business and IT.
+Low code no code tools empower Savvy Business People to solve business problems themselves, without needing extensive IT knowledge.
+Examples of low code no code tools include ServiceNow's App Engine Studio, Now Experience UI Builder, and Flow Designer.
+Benefits:
+
+Improved agility and speed to market
+Lower costs
+Increased automation
+Challenges:
+
+Low code no code tools may not be flexible or customizable enough for complex tasks.
+The code is still there, just hidden from view.
+Opportunities:
+
+Savvy Business People can learn technical skills and take control of their work.
+IT Superstars can focus on supporting the business, rather than just coding.
